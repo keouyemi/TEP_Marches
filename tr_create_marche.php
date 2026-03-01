@@ -7,6 +7,7 @@ include 'connexion.php';
 if (isset($_POST['submit'])) {
 
     // Récupération et sécurisation des données du formulaire
+
     $nomMarche = mysqli_real_escape_string($connexion, trim($_POST['nomMarche']));
     $description = mysqli_real_escape_string($connexion, trim($_POST['description']));
     $capacite = mysqli_real_escape_string($connexion, $_POST['capacite']);
@@ -17,7 +18,7 @@ if (isset($_POST['submit'])) {
     $vraiExtension = strtolower(end($extention));
     $tablrExt = ['jpg','jpeg','png','gif'];
 
-    $chemin = ""; // initialisation
+    $chemin = "";  // initialisation
 
     if(in_array($vraiExtension,$tablrExt)) {
         $nomFichier = date("Y-m-d")."_".date("H-i-s");

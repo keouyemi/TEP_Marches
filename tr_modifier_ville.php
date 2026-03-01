@@ -1,6 +1,7 @@
 <?php
 include 'connexion.php';
 
+// Vérifier ce que l'user veut faire
 if (isset($_POST['modifier'])) {
     $id = $_POST['idVille'];
     $nom = mysqli_real_escape_string($connexion, $_POST['nomVille']);

@@ -10,9 +10,11 @@ if (isset($_POST['submit'])) {
     $nomVille = mysqli_real_escape_string($connexion, trim($_POST['nomVille']));
     
     // Vérification que les champs ne sont pas vides
+
     if (!empty($nomVille)) {
 
         // Insertion avec statut "en_attente" par défaut
+        
         $requete = "INSERT INTO ville (nomVille)
                     VALUES ('$nomVille')";
         $execution = mysqli_query($connexion, $requete);

@@ -5,6 +5,8 @@ $req = "SELECT * FROM marche ORDER BY idMarche DESC";
 $result = mysqli_query($connexion, $req);
 ?>
 
+// Ceci est la page d'accueil qui affiche la liste des marchés. 
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>

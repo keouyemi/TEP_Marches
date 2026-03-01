@@ -2,7 +2,8 @@
 
 include 'connexion.php';
 
-// 1. Récupération des données actuelles du marché
+// 1. Récupération des données  du marché
+
 if (isset($_GET['id'])) {
     $id = mysqli_real_escape_string($connexion, $_GET['id']);
     $query = "SELECT * FROM marche WHERE idMarche = '$id'";

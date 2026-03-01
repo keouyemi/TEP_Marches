@@ -16,8 +16,11 @@ if (isset($_POST['modifier'])) {
     
     
     // Gestion de l'image (si une nouvelle image est téléchargée)
+
     if (!empty($_FILES['image']['name'])) {
+
         // Gestion de l'image
+        
     $chemin = "";
     $image = $_FILES['image']['name'];
     $extention = explode(".", $image);

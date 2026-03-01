@@ -14,7 +14,7 @@
     </div>
 
     <div class="container mt-5 pt-5">
-        <h4 class="pt-3 mb-3 text-primary fw-bold"> Cree une nouvelle Ville</h4>
+        <h4 class="pt-3 mb-3 text-primary fw-bold"> Crée une nouvelle Ville</h4>
 
         <?php if (isset($_GET['success'])): ?>
             <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -33,7 +33,7 @@
         <!-- Formulaire d'ajout -->
         <form action="tr_create_ville.php" method="post" enctype="multipart/form-data">
             <div class="mb-3">
-                <label for="nomVille" class="form-label fw-bold">Nom de la Ville</label>
+                <label for="nomVille" class="form-label fw-bold">Nom de la ville</label>
                 <input type="text" id="nomVille" class="form-control" name="nomVille" placeholder="Ex: Cotonou" required>
             </div>
 

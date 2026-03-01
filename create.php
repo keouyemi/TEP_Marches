@@ -30,7 +30,7 @@
             </div>
         <?php endif; ?>
 
-        <!-- Formulaire d'ajout -->
+        <!-- Formulaire d'ajout pour un nouveau marché -->
         <form action="tr_create_marche.php" method="post" enctype="multipart/form-data">
             <div class="mb-3">
                 <label for="nomMarche" class="form-label fw-bold">Nom du Marché</label>

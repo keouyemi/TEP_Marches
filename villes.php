@@ -2,6 +2,7 @@
 include "connexion.php";
 
 // Récupérer toutes les courses avec le nom du chauffeur (jointure)
+
 $requete = "SELECT c.idVille, c.nomVille
             FROM  ville c
             ORDER BY c.nomVille ASC";
@@ -22,11 +23,11 @@ $execution = mysqli_query($connexion, $requete);
     </div>
 
     <div class="container mt-5 pt-5">
-        <h4 class="pt-3 mn-3 text-primary fw-bold">Liste des Villes</h4>
+        <h4 class="pt-3 mn-3 text-primary fw-bold">Liste des villes</h4>
 
         <?php if (isset($_GET['delete']) && $_GET['delete'] == 1): ?>
             <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                Course supprimée avec succès !
+                Ville supprimée avec succès !
                 <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
             </div>
         <?php endif; ?>
