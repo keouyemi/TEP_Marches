@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Creer un nouveu Marché</title>
+    <title>Créer un nouveau marché</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
@@ -14,7 +14,7 @@
     </div>
 
     <div class="container mt-5 pt-5">
-        <h4 class="pt-3 mb-3 text-primary fw-bold"> Cree un nouveau Marché</h4>
+        <h4 class="pt-3 mb-3 text-primary fw-bold"> Crée un nouveau marché</h4>
 
         <?php if (isset($_GET['success'])): ?>
             <div class="alert alert-success alert-dismissible fade show" role="alert">

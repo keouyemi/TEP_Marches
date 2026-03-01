@@ -17,16 +17,16 @@
         <div class="navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a style="font-size:17px;" class="nav-link text-white fw-bold" href="index.php">Les Marchés</a>
+                    <a style="font-size:17px;" class="nav-link text-white fw-bold" href="index.php">Les marchés</a>
                 </li>
                 <li class="nav-item">
-                    <a style="font-size:17px;" class="nav-link text-white fw-bold" href="create.php">Ajouter un Marché</a>
+                    <a style="font-size:17px;" class="nav-link text-white fw-bold" href="create.php">Ajouter un marché</a>
                 </li>
                 <li class="nav-item">
                     <a style="font-size:17px;" class="nav-link text-white fw-bold" href="villes.php">Villes</a>
                 </li>
                 <li class="nav-item">
-                    <a style="font-size:17px;" class="nav-link text-white fw-bold" href="create_ville.php">Ajouter une Ville</a>
+                    <a style="font-size:17px;" class="nav-link text-white fw-bold" href="create_ville.php">Ajouter une ville</a>
                 </li>
                 
             </ul>

@@ -19,7 +19,7 @@ $result = mysqli_query($connexion, $req);
     </div><br>
 
     <div class="container mt-5">
-        <h3 class="text-primary fw-bold mb-4">Liste des Marchés</h3>
+        <h3 class="text-primary fw-bold mb-4">Liste des marchés</h3>
 
         <div class="row">
 
